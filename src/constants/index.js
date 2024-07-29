@@ -16,14 +16,15 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+
+import jandjlogo from "../assets/company/jandjlogo.png";
+import regionofpeellogo from "../assets/company/regionofpeellogo.png";
+
 
 export const navLinks = [
   {
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Back End Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front End Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
     icon: creator,
   },
 ];
@@ -116,57 +117,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "OT Cyber Security Intern",
+    company_name: "Johnson & Johnson",
+    icon: jandjlogo, // Updated to use Johnson & Johnson logo
+    iconBg: "#EB1600",
+    date: "Feb 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leading the DCOM Remediation project to enhance server network security, achieving a 40% reduction in vulnerabilities and a 50% faster patching process using Tanium’s real-time data monitoring",
+      "Developed automated scripts to enhance the security of data warehouses, reducing unauthorized access incidents by 30% using Python and SQL",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Data Engineer Intern",
+    company_name: "Johnson & Johnson",
+    icon: jandjlogo, // Updated to use Johnson & Johnson logo
+    iconBg: "#EB1600",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered a crucial data pipeline development project, enhancing data processing speed by 30% through the implementation of Python, SQL, and Apache Spark, resulting in more efficient data analysis and reporting",
+      "Developed Tableau dashboards with Alteryx, improving business decision-making by 40% through enhanced real-time KPI analytics, and engineered Alteryx macros to reduce manual effort by 50%",
+      "Integrated Alteryx automation into the Weekly Non-Conformance Report workflow, cutting manual efforts by 50% and enabling real-time non-conformance resolution for better quality control",
+      "Transitioned from an obsolete Excel system to an advanced Alteryx workflow, enhancing data processing efficiency by 70% and improving supply chain operations using J&J Employee Database queries",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    title: "Data Analyst Intern",
+    company_name: "Region of Peel",
+    icon: regionofpeellogo,
+    iconBg: "#030708",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automated repetitive reporting tasks using VBA, reducing manual update time by 50% and cutting report generation time from 4 hours to 2 hours",
+      "Engineered a data consolidation solution by developing a robust data aggregation system that integrated data from 300+ disparate documents, enhancing the accuracy and accessibility of piping, material, and testing requirements across 10 major Ontario cities",
+      "Supported 5+ project managers and clients, streamlining coordination for the Peel Region Waste Water Asset CCTV Inspection Manual project, leading to a 20% increase in project efficiency",
+      "Evaluated over 15 engineering designs for municipal infrastructure using ArcGIS, ensuring data integrity across 3 integrated systems and reducing data inconsistencies by 30%",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
