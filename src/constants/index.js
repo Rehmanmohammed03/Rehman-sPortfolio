@@ -164,7 +164,7 @@ const testimonials = [
     name: "Joseph Cappelluti",
     designation: "Staff Supplier Quality Engineer",
     company: "Johnson & Johnson MedTech",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "/jcappelluti.png",
   }
   
 ];
