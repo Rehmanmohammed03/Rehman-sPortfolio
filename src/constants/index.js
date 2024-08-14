@@ -15,15 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  carrent,
-  jobit,
   tripguide,
   threejs,
 } from "../assets";
 
 import jandjlogo from "../assets/company/jandjlogo.png";
 import regionofpeellogo from "../assets/company/regionofpeellogo.png";
+import quanserrobotrecycle from "../assets/company/quanserrobotrecycle.png";
+import threedspatialpic from "../assets/company/threedspatialpic.png";
+import financeaichatbott from "../assets/company/financeaichatbott.png";
+
 
 
 export const navLinks = [
@@ -159,93 +160,88 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I had the pleasure of working with Rehman during his co-op. He is a quick and self-motivated learner. He taught himself Tableau and Alteryx and quickly came up to speed on existing workflows and visualizations. He was able to troubleshoot production issues and is a great communicator. He is always asking deeper questions and is dedicated to his work. Rehman will be an asset to any team that he joins in the future.",
+    name: "Joseph Cappelluti",
+    designation: "Staff Supplier Quality Engineer",
+    company: "Johnson & Johnson MedTech",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Automated Robotic Sorting Disposal System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a robotic arm system programmed in Python, using muscle sensors to automate sorting and disposal of containers. It integrates ultrasonic and infrared sensors for accurate positioning and identification, and employs Quanser-Bot technology to handle containers based on weight and ID, enhancing efficiency and precision in recycling operations.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Quanser Interactive Software",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+    
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: quanserrobotrecycle,
+    source_code_link: "https://github.com/Rehmanmohammed03/Automated-Robotic-Sorting-Disposal-System",
   },
   {
-    name: "Job IT",
+    name: "3D Spatial Mapping Sensor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a spatial measurement system using the VL53L1X Time-of-Flight sensor for 360-degree mapping and precise distance measurements up to 4.5 feet. The system uses I2C and UART protocols for efficient data transfer to PCs, complemented by a Python-based program with Open3D for 3D visualization and environment reconstruction",
     tags: [
       {
-        name: "react",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Open3D",
         color: "pink-text-gradient",
       },
+      {
+        name: "Pyserial",
+        color: "red-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: threedspatialpic,
+    source_code_link: "https://github.com/Rehmanmohammed03/3D-Spatial-Mapping-Sensor",
   },
   {
-    name: "Trip Guide",
+    name: "Financial Advisor AI Chatbot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a robust AI-powered chatbot that delivers accurate financial guidance to users while combating misinformation in the financial sector, including cryptocurrency. The platform is built with Node.js and Next.js for high performance and scalability, integrated with OpenAI's GPT models to provide personalized advice, and deployed on Amazon EC2 to ensure reliable performance and uptime",
     tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "React",
+        color: "blue-text-gradient",
       },
+      {
+        name: "OpenAI API",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Amazon EC2",
+        color: "purple-text-gradient",
+      },
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: financeaichatbott,
+    source_code_link: "https://github.com/Rehmanmohammed03/Financial-Advisor-AI",
   },
 ];
 
