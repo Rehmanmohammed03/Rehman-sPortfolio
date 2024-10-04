@@ -133,7 +133,7 @@ const experiences = [
     company_name: "Johnson & Johnson",
     icon: jandjlogo, // Updated to use Johnson & Johnson logo
     iconBg: "#EB1600",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2023 - Jan 2024",
     points: [
       "Delivered a crucial data pipeline development project, enhancing data processing speed by 30% through the implementation of Python, SQL, and Apache Spark, resulting in more efficient data analysis and reporting",
       "Developed Tableau dashboards with Alteryx, improving business decision-making by 40% through enhanced real-time KPI analytics, and engineered Alteryx macros to reduce manual effort by 50%",
@@ -146,7 +146,7 @@ const experiences = [
     company_name: "Region of Peel",
     icon: regionofpeellogo,
     iconBg: "#030708",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 - Aug 2022",
     points: [
       "Automated repetitive reporting tasks using VBA, reducing manual update time by 50% and cutting report generation time from 4 hours to 2 hours",
       "Engineered a data consolidation solution by developing a robust data aggregation system that integrated data from 300+ disparate documents, enhancing the accuracy and accessibility of piping, material, and testing requirements across 10 major Ontario cities",
