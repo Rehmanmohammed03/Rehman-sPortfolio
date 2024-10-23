@@ -118,7 +118,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "OT Cyber Security Intern",
+    title: "Cyber Security Intern",
     company_name: "Johnson & Johnson",
     icon: jandjlogo, // Updated to use Johnson & Johnson logo
     iconBg: "#EB1600",
